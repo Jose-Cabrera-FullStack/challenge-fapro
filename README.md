@@ -19,12 +19,11 @@ Response
 200 OK with a JSON object containing the UF values for each day of the year.
 400 Bad Request if the year is not valid.
 404 Not Found if the UF values for the specified year could not be found.
+
 Example
 http
-Copy code
 GET /uf/2022
-json
-Copy code
+
 {
     "2022-01-01": 29880.9,
     "2022-01-02": 29880.9,
